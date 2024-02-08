@@ -10,14 +10,14 @@ export default function Home() {
     <div>
       <Navbar />
       <div className = 'hero-text' >
-        <h1 draggable={false}  className = 'bg-gradient-to-bl from-zinc-600 to-zinc-900 bg-clip-text text-transparent text-center text-4xl font-bold my-20 mx-18 leading-[40px] xl:text-5xl xl:w-[880px] xl:ml-[350px] xl:leading-[80px]'>The productivity app that helps you work like flamingo</h1>
-        <img className="ml-[130px] absolute z-[-1]  mt-[-70px] w-[130px]  xl:z-[-1] xl:w-[180px] xl:mt-[-80px] xl:ml-[780px]" src="line-design.svg"></img>
+        <h1 draggable={false}  className = 'bg-gradient-to-bl from-zinc-600 to-zinc-900 bg-clip-text text-transparent text-center text-4xl py-[10px] font-bold my-20 mx-18 leading-[40px] xl:text-5xl xl:w-[880px] xl:ml-[350px] xl:leading-[80px]'>The productivity app that helps you work like flamingo</h1>
+        <img className="ml-[180px] absolute z-[-1]  mt-[-90px] w-[130px]  xl:z-[-1] xl:w-[180px] xl:mt-[-80px] xl:ml-[780px]" src="line-design.svg"></img>
         <Image  draggable={false} className="x-auto ml-0  xl:w-[420px] xl:ml-[190px] xl:mt-[-120px]" src="/heroPerson.svg"
           height={50}
           width={250}
         ></Image>
         <MessageBox />
-        <h1 className="text-center text-lg px-6 font-bold mt-20 ">While most of the features are packed in mobile application🔥 <br></br> <br></br> Try out our <b className="text-blue-500">Ambient sounds</b> for focus</h1>
+        <h1 className="text-center text-lg px-6 font-bold mt-20 ">Falmixy is both for mobile phone and desktop🔥 <br></br> <br></br> Not just another <b className="text-blue-500">XYZ</b> productivity app</h1>
         <button  className="border px-8 py-3 bg-black rounded-2xl my-10 font-semibold text-slate-200 flex mx-auto">Wishlist now!</button>
         <h1 className="text-2xl font-bold my-10 ml-8 xl:mx-[120px] xl:mt-[100px] bg-gradient-to-bl from-zinc-600 to-zinc-900 bg-clip-text text-transparent ">About Flamixy</h1>
         <p className="text-mg ml-4 border px-1  text-gray-500 border-white  xl:w-[1300px] w-[335px] xl:mx-[120px] xl:text-2xl">We believe that productivity should be empowering, enjoyable, and a little bit fun. Our mission is to provide you with the tools and features that not only enhance your work but also make the journey towards your goals a delightful one. Unleash your potential with Flamixy - where work meets play!</p>
