@@ -10,8 +10,8 @@ export default function Home() {
     <div>
       <Navbar />
       <div className = 'hero-text' >
-        <h1 draggable={false}  className = 'bg-gradient-to-bl from-zinc-600 to-zinc-900 bg-clip-text text-transparent text-center text-4xl font-bold my-20 mx-18 leading-[40px] xl:text-5xl xl:w-[880px] xl:ml-[350px] xl:leading-[80px]'>The productivity app that helps you work like flamingo🦩</h1>
-        <img className="ml-[130px] absolute z-[-1]  mt-[-80px] w-[130px]  xl:z-[-1] xl:w-[180px] xl:mt-[-80px] xl:ml-[780px]" src="line-design.svg"></img>
+        <h1 draggable={false}  className = 'bg-gradient-to-bl from-zinc-600 to-zinc-900 bg-clip-text text-transparent text-center text-4xl font-bold my-20 mx-18 leading-[40px] xl:text-5xl xl:w-[880px] xl:ml-[350px] xl:leading-[80px]'>The productivity app that helps you work like flamingo</h1>
+        <img className="ml-[130px] absolute z-[-1]  mt-[-70px] w-[130px]  xl:z-[-1] xl:w-[180px] xl:mt-[-80px] xl:ml-[780px]" src="line-design.svg"></img>
         <Image  draggable={false} className="x-auto ml-0  xl:w-[420px] xl:ml-[190px] xl:mt-[-120px]" src="/heroPerson.svg"
           height={50}
           width={250}
